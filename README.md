@@ -17,7 +17,7 @@ Instrucciones:
 
 Para ejecutar el programa, se debe contar con Python3. El programa correrá bajo la siguiente instrucción:
 
-gunzip -c branch-trace-gcc.trace.gz | cache -s <#> -l <#> -a <#>
+gunzip -c mfc.trace.gz | cache -s <#> -l <#> -a <#>
 
 Donde cada uno de los parámetros corresponden de la siguiente manera:
 
