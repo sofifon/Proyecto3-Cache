@@ -1,8 +1,9 @@
-#Cache
+# Cache
 
 Este git corresponde al Proyecto 3: Cache del curso IE0521 Estructuras de computadoras digitales II de la Escuela de Ingeniería Eléctrica de la Universidad de Costa Rica.
 
-Está realizado en el I Semestre del 2020 por:
+Está realizado en el II Semestre del 2021 por:
+
 	-Sofía Fonseca Muñoz, carné B42634
 	-Freddy Zúñiga Cerdas, carné A45967
 	-Jeffry Luque, carné B33893
