@@ -1,0 +1,36 @@
+#!/usr/bin/python3
+# Estructuras de Computadoras II
+# Universidad de Costa Rica
+# Proyecto 3 - IIS 2021
+# Sofía Fonseca Muñoz B42634
+# Freddy Zúñiga Cerdas A45967
+# Jeffry Luque B33893
+# Guillermo González B53080
+
+from enum import Enum
+from math import pow
+import sys, getopt
+import fileinput
+
+def main():
+    help_text = "Be sure to use the next arguments when running the program \n -s for cache size \n -l for cache line size" \
+                "\n -a for asociativity"
+    try:
+        opts, args = getopt.getopt(argv, "s:l:a:")
+    except:
+        print(help_text)
+        
+    for opt, arg in opts:
+        if opt in ['-s']:
+            cache_size = arg
+        elif opt in ['-l']:
+            cache_line_size = arg
+        elif opt in ['-a']:
+            asociativity = arg
+        else:
+            print(help_text)
+
+    # do not run the program if one of the arguments is missing
+    if 'cache_size' not in locals() or 'cache_line_size' not in locals() or 'asociativity' not in locals():
+        print(help_text)
+        sys.exit(2)
